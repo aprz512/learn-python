@@ -1,0 +1,8 @@
+1.
+加载png图片的时候，路径制定错了。
+本来应该用pygame.image.load("image\\rocket.png").convert_alpha()
+结果写成了pygame.image.load("\\image\\rocket.png").convert_alpha()
+还到处查资料.....
+
+2.
+在类中成员函数相互调用的时候，总是忘记用 self.
